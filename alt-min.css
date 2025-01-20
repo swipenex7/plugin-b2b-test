@@ -1,0 +1,121 @@
+.floatbox {
+    display: block;
+    box-sizing: border-box;
+    margin: 0px -10px;
+  }
+  
+  .floatbox::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+  
+  .item {
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+  }
+  
+
+  
+  .content {
+    color: #242424;
+    background-color: #ffffff;
+    font-weight: 600;
+    text-align: center; 
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+  }
+
+
+.button-1 {
+  background-color: #f6fa00;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #030000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+ 
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #ffd903;
+	
+}
+
+
+.card {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  height: 4rem;
+  margin: 5px;
+  border:#acacac;
+  border-radius: 3%;
+  height: 200px;
+  width: 100%;
+}
+.card .box {
+    width: 33%;
+    float: left;
+  }
+
+.imggomma{
+    border-radius: 8px;
+        
+        width: 150px;  
+}
+
+.imglogo{
+       
+        width: 120px;  
+}
+
+.descrizione{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.gomma{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.prezzo{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+    color: #FFC617;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
